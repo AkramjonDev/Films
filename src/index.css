@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background: #10141E;
+    color: #fff;
+}
+.container{
+    max-width: 1450px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.swiper-slide{
+    background-image: url(./assets/images/slider-img1.png);
+}
